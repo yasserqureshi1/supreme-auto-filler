@@ -1,0 +1,18 @@
+{
+    "name": "YasAutoFiller (for Supreme)",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "welcome/background.js"
+    },
+    "action": {
+        "default_popup": "ext/index.html"
+    },
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["content.js"]
+        }
+    ],
+    "permissions": ["storage","activeTab","declarativeContent"]
+  }
