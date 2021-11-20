@@ -3,7 +3,8 @@
 A Chrome extension that fills in the checkout page of [Supreme](https://www.supremenewyork.com)
 
 ## About the Project
-This project is my first Chrome extension project. It allows for a speedy checkout by filling in the checkout details automatically. Within the extension you are able to fill in the same checkout form prior to a release, save the profile and load it.
+This is a Chrome extension that autofills the checkout page or Supreme.
+This is the source code that goes along with the YouTube Tutorial on how to create this ([Create your own Chrome Extension (Supreme Auto-filler)](https://www.youtube.com/watch?v=oF97mOiEJAs))
 
 ## Installation
 To use the Chrome extension, please follow the steps below:
